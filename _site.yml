@@ -1,0 +1,30 @@
+name: "Circular Economy Course"
+title: "Circular Economy Course"
+theme: Everest.css 
+description: |
+  Everest
+output_dir: "docs"
+repository_url: 
+navbar:
+#  logo:
+#    image: figures/logo.png
+#    href: https://lf2l.github.io/everest-bio/
+  search: true
+  source_url: true
+  right:
+    - text: "Home"
+      href: index.html
+    # - text: "Research axis"
+    #   menu:
+    #     - text: "Sustainable Indicators"
+    #       href: 01-Sustainable-indicators.html
+    #     - text: "Supply chain"
+    #       href: 02-supply-chain.html
+    #     - text: "Environmental Behaviour"
+    #       href: 03-comportements.html  
+    # - text: "References"
+    #   href: 00-References.html    
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2

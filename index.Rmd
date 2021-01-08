@@ -1,0 +1,47 @@
+---
+title: "Circular Economy Course"
+description: |
+  **ÉV**aluation du r**É**seau de **RE**cyclage pour **S**outenir la **T**ransition vers une **BIO**économie <br/>
+  Projet de recherche CREIDD et ERPI
+  
+author:
+  - first_name: "Fabio"
+    last_name: "Cruz"
+    url: https://erpi.univ-lorraine.fr/people/Fabio-Cruz/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    orcid_id: 0000-0001-8529-5327
+  - first_name: "Fedoua"
+    last_name: "Kasmi"
+    url: https://erpi.univ-lorraine.fr/people/Fedoua-Kasmi/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    orcid_id: 0000-0001-5159-0264
+  - first_name: "Pavlo"
+    last_name: "Santander"
+    url: http://erpi.univ-lorraine.fr/people/Pavlo-Santander/
+    affiliation: ERPI
+    affiliation_url: https://erpi.univ-lorraine.fr/
+    #orcid_id: 0000-0001-6328-1338
+bibliography: library.bib
+csl: journal-of-cleaner-production.csl
+link-citations: yes
+linkcolor: blue 
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+require(tidyverse)
+require(xaringan)
+require(xaringanExtra)
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+
