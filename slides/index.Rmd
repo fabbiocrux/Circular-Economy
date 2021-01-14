@@ -3,7 +3,7 @@ title: "Towards an Industrial Symbiosis for distributed recycling via additive m
 subtitle: "Licence AFTER"
 author: "Fabio Cruz & Fedoua Kasmi"
 institute: "Université de Lorraine --- ERPI"
-date: "2021/01/08"
+date: "2021/01/14"
 output:
   xaringan::moon_reader:
     css: [default, "Assets/css/Fabio.css", "Assets/css/Fabio-fonts.css"]
@@ -188,7 +188,7 @@ class: clear, center, middle
 
 ---
 
-# Distributed recycling via additive manufacturing (DRAM)
+## Distributed recycling via additive manufacturing (DRAM)
 
 .pull-left[
 -Local closed loop  <br>
@@ -211,44 +211,110 @@ http://lf2l.fr/projects/green-fablab
 
 ---
 
-# Distributed recycling via additive manufacturing (DRAM)
+## Distributed recycling via additive manufacturing (DRAM)
 Technical system
 ![](Figures/DRAM-00.png)
 
 ---
 
-# Distributed recycling via additive manufacturing (DRAM)
-Technical system
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system:  <br>
+.content-box-green[1) Evaluation of the 3D printers quality]
 ![](Figures/DRAM-01.png)
+
+
+.footnote[
+Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
+]
 
 ---
 
-# Distributed recycling via additive manufacturing (DRAM)
-Technical system
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system: <br>
+.content-box-green[1) Evaluation of the 3D printers quality]
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Metodologies/Master-recherche/Master-00.png'))
+```
+
+
+.footnote[
+Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a standard experimental protocol for open source additive manufacturing. Virtual Phys. Prototyp. 9, 151–167. https://doi.org/10.1080/17452759.2014.919553
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system: <br>
+1) Evaluation of the 3D printers quality <br>
+.content-box-green[2) Recycling feasibility (Lab conditions)]
 ![](Figures/DRAM-02.png)
 
 ---
 
-# Distributed recycling via additive manufacturing (DRAM)
-Technical system
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system: <br>
+1) Evaluation of the 3D printers quality <br>
+2) Recycling feasibility (Lab conditions) <br>
+.content-box-green[3) Logistical mathematical model]
+
 ![](Figures/DRAM-03.png)
 
 ---
 
-# Distributed recycling via additive manufacturing (DRAM)
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system: <br>
+1) Evaluation of the 3D printers quality <br>
+2) Recycling feasibility (Lab conditions) <br>
+.content-box-green[3) Logistical mathematical model]
+
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/Pavlo-05.png'))
+```
+
+.footnote[
+Santander, P., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., 2020. Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach. Resour. Conserv. Recycl. 154, 104531. https://doi.org/10.1016/j.resconrec.2019.104531
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
+Technical system --> .content-box-green[Towards a complete technical framework] <br>
+1) Evaluation of the 3D printers quality <br>
+2) Recycling feasibility (Lab conditions) <br>
+3) Logistical mathematical model <br>
+
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'DRAM/DRAM-00.svg'))
+```
+
+.footnote[
+Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. J. Clean. Prod. 264, 121602. https://doi.org/10.1016/j.jclepro.2020.121602
+]
+
+---
+
+## Distributed recycling via additive manufacturing (DRAM)
 Technical system
 
 .center[![:scale 80%](Figures/DRAM-04.jpeg)]
 
+.footnote[
+Alexandre, A., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers. 3D Print. Addit. Manuf. 3dp.2019.0195. https://doi.org/10.1089/3dp.2019.0195
+]
+
 ---
 
-# Distributed recycling via additive manufacturing (DRAM)
+## Distributed recycling via additive manufacturing (DRAM)
 Technical system --> Towards an 'Industrial Symbiosis'
 
-.center[![:scale 80%](Figures/DRAM-05.png)]
+.center[![:scale 100%](Figures/DRAM-05.png)]
 
 ---
-# Distributed recycling via additive manufacturing (DRAM)
+
+## Distributed recycling via additive manufacturing (DRAM)
 Technical system --> Towars and 'Industrial Symbiosis'
 
 .center[![:scale 80%](Figures/DRAM/DRAM-03.png)]
@@ -256,7 +322,7 @@ Technical system --> Towars and 'Industrial Symbiosis'
 
 ---
 
-# Distributed recycling via additive manufacturing (DRAM)
+## Distributed recycling via additive manufacturing (DRAM)
 
 Global system
 
@@ -280,7 +346,32 @@ Santander, P., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., 2020. Closed loop 
 ---
 
 
-# The transition is coming
+---
+
+Class: middle
+
+
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'FIN/2019/Green-of-Thrones/Typografia/Recycling-is-coming.png'))
+```
+
+
+
+
+---
+
+# Recycling is coming
+
+## Precious Plastic Inspiration
+
+.center[
+<iframe width="660" height="415" src="https://www.youtube.com/embed/Os7dREQ00l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+
+
+---
+## Precious Plastic Inspiration
 
 ![:scale 90%](Figures/Plastiques/Precious-plastic-01.jpg)
 
@@ -295,15 +386,6 @@ Santander, P., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., 2020. Closed loop 
 
 ---
 
-## Precious Plastic Inspiration
-
-.center[
-<iframe width="660" height="415" src="https://www.youtube.com/embed/Os7dREQ00l4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-]
-
-
----
 
 ## Other Inspirations
 

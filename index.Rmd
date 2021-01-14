@@ -37,19 +37,13 @@ require(xaringanExtra)
 ```
 
 # Objectives
-- Implement the consumer-driven DIT process within the four use cases 
-- Validate the INEDIT process specifications 
-- Experiment and validate the result 
-- Identify potential gender issues and insights to overcome them
-
-
+- To present the Green Fablab as an Industrial symbiosis 
+- Introduction to Distributed recycling
 
 # Presentation
 
 
 ```{r embed-xaringan, echo=FALSE}
-
 embed_xaringan(url = "slides/index.html", ratio = "16:9")
-
 ```
 
