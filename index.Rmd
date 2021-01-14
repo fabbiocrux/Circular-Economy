@@ -1,9 +1,7 @@
 ---
 title: "Circular Economy Course"
 description: |
-  **ÉV**aluation du r**É**seau de **RE**cyclage pour **S**outenir la **T**ransition vers une **BIO**économie <br/>
-  Projet de recherche CREIDD et ERPI
-  
+
 author:
   - first_name: "Fabio"
     last_name: "Cruz"
@@ -17,12 +15,6 @@ author:
     affiliation: ERPI
     affiliation_url: https://erpi.univ-lorraine.fr/
     orcid_id: 0000-0001-5159-0264
-  - first_name: "Pavlo"
-    last_name: "Santander"
-    url: http://erpi.univ-lorraine.fr/people/Pavlo-Santander/
-    affiliation: ERPI
-    affiliation_url: https://erpi.univ-lorraine.fr/
-    #orcid_id: 0000-0001-6328-1338
 bibliography: library.bib
 csl: journal-of-cleaner-production.csl
 link-citations: yes
@@ -44,4 +36,20 @@ require(xaringanExtra)
 
 ```
 
+# Objectives
+- Implement the consumer-driven DIT process within the four use cases 
+- Validate the INEDIT process specifications 
+- Experiment and validate the result 
+- Identify potential gender issues and insights to overcome them
+
+
+
+# Presentation
+
+
+```{r embed-xaringan, echo=FALSE}
+
+embed_xaringan(url = "slides/index.html", ratio = "16:9")
+
+```
 
