@@ -233,7 +233,7 @@ Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a stand
 Technical system: <br>
 .content-box-green[1) Evaluation of the 3D printers quality]
 
-```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
+```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '80%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'Metodologies/Master-recherche/Master-00.png'))
 ```
 
@@ -248,7 +248,12 @@ Cruz Sanchez, F.A., Boudaoud, H., Muller, L., Camargo, M., 2014. Towards a stand
 Technical system: <br>
 1) Evaluation of the 3D printers quality <br>
 .content-box-green[2) Recycling feasibility (Lab conditions)]
+
 ![](Figures/DRAM-02.png)
+
+---
+
+
 
 ---
 
@@ -289,6 +294,8 @@ Technical system --> .content-box-green[Towards a complete technical framework] 
 ```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'DRAM/DRAM-00.svg'))
 ```
+
+
 
 .footnote[
 Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. J. Clean. Prod. 264, 121602. https://doi.org/10.1016/j.jclepro.2020.121602
@@ -348,7 +355,7 @@ Santander, P., Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., 2020. Closed loop 
 
 ---
 
-Class: middle
+class: middle
 
 
 ```{r , include=TRUE, echo=FALSE, fig.cap=" ", out.width = '100%', fig.align='center'}
